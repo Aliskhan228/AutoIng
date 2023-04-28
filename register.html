@@ -1,91 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <main class="login-main">
-        <div class="container">
-          <div class="login-main__wrapper">
-            <a class="logo navbar-brand" href="index.html">INGAUTO <span>CAR</span></a>
-            <h1 class="login-main__title">Регистрация</h1>
 
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  >Имя пользователя</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  placeholder="Введите имя пользователя"
-                  aria-describedby="emailHelp"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  placeholder="Введите Email"
-                  aria-describedby="emailHelp"
-                />
-                <div id="emailHelp" class="form-text">
-                  Мы никогда не будем делиться вашей электронной почтой с
-                  кем-либо еще.
-                </div>
-              </div>
-              <div class="mb-3">
-                <label for="inputPassword5" class="form-label">Пароль</label>
-                <input
-                  type="password"
-                  id="inputPassword5"
-                  class="form-control"
-                  placeholder="Придумайте пароль"
-                  aria-describedby="passwordHelpBlock"
-                />
-                <div id="passwordHelpBlock" class="form-text">
-                  Ваш пароль должен состоять из 8-20 символов, содержать буквы и
-                  цифры и не должен содержать пробелов, специальных символов или
-                  эмодзи.
-                </div>
-              </div>
-              <div class="mb-3">
-                <label for="inputPassword5" class="form-label">Подтверждение пароля</label>
-                <input
-                  type="password"
-                  id="inputPassword5"
-                  class="form-control"
-                  placeholder="Подтвердите пароль"
-                  aria-describedby="passwordHelpBlock"
-                />
-              </div>
-              <p class="login-main__signup">Уже есть аккаунт?
-                <a href="login.html">Войдите</a>
-              </p>
-              <button
-                type="button"
-                class="main__btn login-main__btn btn btn-light"
-              >
-                Зарегестрироваться
-              </button>
-            </form>
-          </div>
-        </div>
-      </main>
-    </div>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="login-main">
+			<div class="container">
+				<div class="login-main__wrapper">
+					<a class="logo navbar-brand" href="index.html">INGAUTO <span>CAR</span></a>
+					<h1 class="login-main__title">Регистрация</h1>
+
+					<form>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Имя пользователя</label>
+							<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Введите имя пользователя"
+								aria-describedby="emailHelp" />
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Введите Email"
+								aria-describedby="emailHelp" />
+							<div id="emailHelp" class="form-text">
+								Мы никогда не будем делиться вашей электронной почтой с
+								кем-либо еще.
+							</div>
+						</div>
+						<div class="mb-3">
+							<label for="inputPassword5" class="form-label">Пароль</label>
+							<input type="password" id="inputPassword5" class="form-control" placeholder="Придумайте пароль"
+								aria-describedby="passwordHelpBlock" />
+							<div id="passwordHelpBlock" class="form-text">
+								Ваш пароль должен состоять из 8-20 символов, содержать буквы и
+								цифры и не должен содержать пробелов, специальных символов или
+								эмодзи.
+							</div>
+						</div>
+						<div class="mb-3">
+							<label for="inputPassword5" class="form-label">Подтверждение пароля</label>
+							<input type="password" id="inputPassword5" class="form-control" placeholder="Подтвердите пароль"
+								aria-describedby="passwordHelpBlock" />
+						</div>
+						<p class="login-main__signup">Уже есть аккаунт?
+							<a href="login.html">Войдите</a>
+						</p>
+						<button type="button" class="main__btn login-main__btn btn btn-light">
+							Зарегестрироваться
+						</button>
+					</form>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+
 </html>
